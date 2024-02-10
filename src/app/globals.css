@@ -6,14 +6,27 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    filter: blur(20px);
+    width: 800px;
+    height: 800px;
+    border-radius: 100%;
+    filter: blur(40px);
     background-color: rgb(255, 67, 75);
-    background: linear-gradient(#43d9ad, #4d5bce);
+    background: radial-gradient(rgba(84, 130, 255, 0.301), transparent 80%);
     opacity: 0.4;
-    z-index: 2;
+    z-index: 30;
+    pointer-events: none;
+    inset: 0;
     /* transition: transform 300ms cubic-bezier(0.17, 0.67, 0.83, 0.67); */
   }
+
+.active .nav-indicator {
+    width: 4rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 232 240/var(--tw-bg-opacity))
+}
+
+.active .nav-text {
+    --tw-text-opacity: 1;
+    color: rgb(226 232 240/var(--tw-text-opacity))
+}
   

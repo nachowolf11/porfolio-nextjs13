@@ -1,7 +1,7 @@
-import { Kanit } from 'next/font/google';
+import { Inter } from 'next/font/google';
 
 
-export const titleFont = Kanit({ 
+export const fontSans = Inter({ 
   subsets: ['latin'],
-  weight: ['500', '700'],
+  weight: ['100','200','300','400','500','600','700','800'],
 });

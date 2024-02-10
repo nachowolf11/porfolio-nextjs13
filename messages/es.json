@@ -1,8 +1,14 @@
 {
-    "index":{
-        "title":"Hola mundo"
-    },
     "Metadata": {
         "title":"Desarrollador Web"
+    },
+    "header":{
+        "role":"Desarrollador Web Fullstack",
+        "description":"I build pixel-perfect, engaging, and accessible digital experiences.",
+        "sections":{
+            "about":"Sobre mi",
+            "experience":"Experiencia",
+            "projects":"Proyectos"
+        }
     }
 }

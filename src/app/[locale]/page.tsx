@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
-import { ThemeSwitch } from "../components";
+import { Header, Main } from "../components";
 import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
+import { fontSans } from "../config/fonts";
 
 interface Props {
   params: {
@@ -19,10 +20,14 @@ export async function generateMetadata({params: {locale}}:Props) {
 export default function Home({ params }:Props) {
   unstable_setRequestLocale(params.locale);
 
-  const t = useTranslations('index');
   return (
-    <main className="">
-      <ThemeSwitch/>
-    </main>
+    <div className={`${fontSans.className} mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0`}>
+      <div className="lg:flex lg:justify-between lg:gap-4">
+
+        <Header/>
+        <Main/>
+
+      </div>
+    </div>
   );
 }

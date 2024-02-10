@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "@/app/globals.css";
-import { Providers } from "../Providers";
 import { Mousefollow } from "../components";
 
 
@@ -25,11 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang={ locale } suppressHydrationWarning>
-      <body className="dark:bg-slate-900">
-        <Providers>
-          {children}
-          <Mousefollow/>
-        </Providers>
+      <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+        <Mousefollow/>
+        {children}
       </body>
     </html>
   );
