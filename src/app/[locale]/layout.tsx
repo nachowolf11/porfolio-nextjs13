@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "@/app/globals.css";
-import { Mousefollow } from "../components";
+import { Mousefollow } from "@/components";
 
 
 export const metadata: Metadata = {
