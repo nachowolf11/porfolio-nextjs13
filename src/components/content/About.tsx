@@ -1,6 +1,12 @@
+import { useTranslations } from "next-intl"
 
 export const About = () => {
+  const t = useTranslations('about');
   return (
-    <div style={{ width: '100px', height: '1000px' }}>About</div>
+    <div>
+      <p className="mb-4">{t('p1')}</p>
+      <p className="mb-4">{t('p2')}</p>
+      <p>{t('p3')}</p>
+    </div>
   )
 }
