@@ -43,10 +43,10 @@ export const Header = () => {
             {
                 socialNetworks.map( item => (
                     <li key={item.label} className="mr-5 text-xs shrink-0">
-                        <a href={item.url} className="block hover:text-slate-200" target="_blank" rel="noreferrer noopener" title={item.label}>
+                        <Link href={item.url} className="block hover:text-slate-200" target="_blank" rel="noreferrer noopener" title={item.label}>
                             <span className="sr-only">{item.label}</span>
                             {item.icon}
-                        </a>
+                        </Link>
                     </li>
                 ))
             }

@@ -1,4 +1,4 @@
-import { About, Experience, Projects, SectionContainer } from ".."
+import { About, ExperienceSection, Projects, SectionContainer } from ".."
 
 export const Main = () => {
   return (
@@ -9,7 +9,7 @@ export const Main = () => {
       </SectionContainer>
 
       <SectionContainer sectionName="experience">
-        <Experience/>
+        <ExperienceSection/>
       </SectionContainer>
 
       <SectionContainer sectionName="projects">

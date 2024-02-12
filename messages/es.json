@@ -15,5 +15,12 @@
         "p1":"Desde 2021, he iniciado mi trayectoria profesional en Thalamus SA como Account Analyst.",
         "p2":"En 2023, decidí dar un paso adelante al unirme al equipo de desarrollo, lo que ha significado una oportunidad invaluable para expandir mis habilidades técnicas y capacitarme para enfrentar una variedad de desafíos.",
         "p3":"Mi objetivo primordial es avanzar en mi carrera buscando oportunidades que me permitan crecer profesionalmente y contribuir al éxito continuo de la organización. Estoy firmemente comprometido a desarrollar tanto mis habilidades en tecnología como en negocios, buscando siempre superar los límites y agregar valor donde sea posible."
+    },
+    "experience":{
+        "thalamusDev": {
+            "date": "2023 - Hoy",
+            "role": "Desarrollador Web Fullstack",
+            "description": "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools."
+        }
     }
 }
