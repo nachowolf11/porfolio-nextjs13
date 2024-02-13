@@ -6,4 +6,10 @@ export interface Experience {
     previousRole: Array<string>;
     description: string;
     technologies: Array<string>;
+    projects: Array<Project>;
+}
+
+export interface Project {
+    name: string;
+    url: string;
 }

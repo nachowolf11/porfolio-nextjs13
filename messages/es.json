@@ -20,7 +20,13 @@
         "thalamusDev": {
             "date": "2023 - Hoy",
             "role": "Desarrollador Web Fullstack",
-            "description": "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools."
-        }
+            "description": "Construir, actualizar y dar mantenimiento a PWAs, landing pages, e-commerce y otros tipo de sitios web, para proyectos de clientes importantes como los son BAT, Renault, McCain, Tabsar, entre otras. Participando tanto en el desarrollo Frontend, asi como en el Backend al construir APIs específicas de los proyectos que utilizan como integración la API de Thalamus."
+        },
+        "thalamusAA": {
+            "date": "2021 - 2023",
+            "role": "Analista de cuenta",
+            "description": "Responsable de la gestión y análisis de cuentas corporativas, incluyendo seguimiento detallado y evaluación de rendimiento de las mismas. Así también, de la generación de informes para el equipo del cliente basados en análisis de datos. Todo esto manteniendo comunicación con el equipo interno y los clientes para juntos colaborar con el logro de los objetivos empresariales."
+        },
+        "view": "Ver resumen completo"
     }
 }
