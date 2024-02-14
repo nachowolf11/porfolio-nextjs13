@@ -11,7 +11,14 @@ const projects: Array<Project> = [
     description: 'myglo.description',
     technologies: ['Angular', 'PHP', 'Laravel'],
     imageUrl: '/projects/myglobg.png'
-  }
+  },
+  {
+    name: 'conectados.name',
+    url: 'https://conectadosbat.com/',
+    description: 'conectados.description',
+    technologies: ['Angular', 'PHP', 'Laravel'],
+    imageUrl: '/projects/conectados.png'
+  },
 ];
 
 export const ProjectsSection = () => {

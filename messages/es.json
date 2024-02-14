@@ -34,7 +34,11 @@
         "view2": "proyectos",
         "myglo":{
             "name":"My Glo - Bulgaria",
-            "description": "Responsable de la gestión y análisis de cuentas corporativas, incluyendo seguimiento detallado y evaluación de rendimiento de las mismas. Así también, de la generación de informes para el equipo del cliente basados en análisis de datos. Todo esto manteniendo comunicación con el equipo interno y los clientes para juntos colaborar con el logro de los objetivos empresariales."
+            "description": "E-commerce de BAT Bulgaria para la marca de cigarrillos electrónicos Glo, que ofrece toda característica que un comercio electrónico moderno debería tener. Una de las contribuciones más significativas al proyecto ha sido la implementación del sistema de descuentos, tanto automáticos como manuales. Estos descuentos se aplican de manera inteligente, ya sea cuando el usuario cumple ciertas condiciones específicas o cuando ingresa un código de descuento durante el proceso de compra."
+        },
+        "conectados":{
+            "name":"Conectados BAT",
+            "description": "Programa de incentivo de ventas para el staff de tiendas con venta al público. En ella se publican objetivos de ventas mensuales a cumplir por el local, lo que permite acceder a premios en caso de cumplirlos. Mi rol en este proyecto es dar mantenimiento a la aplicacion e implementar pequeñas características adicionales que se solicitan agregar."
         }
     }
 }
