@@ -12,7 +12,7 @@ const experiences: Array<Experience> = [
     previousRole: [],
     description: 'thalamusDev.description',
     technologies: [ 'Angular', 'React', 'JavaScript', 'TypeScript', 'PHP', 'Laravel', 'HTML & CSS', 'Codeigniter', 'jQuery'],
-    projects: [
+    workProjects: [
       {
         name: 'Glo',
         url: 'https://www.myglo.bg/'
@@ -35,7 +35,7 @@ const experiences: Array<Experience> = [
     previousRole: [],
     description: 'thalamusAA.description',
     technologies: [ 'MySQL', 'HTML & CSS', 'Postman'],
-    projects: []
+    workProjects: []
   },
 ];
 
@@ -61,6 +61,7 @@ export const ExperienceSection = () => {
             </span>
           </a>
       </div>
+
     </div>
   )
 }

@@ -4,11 +4,13 @@ export { SectionContainer } from "./ui/SectionContainer"
 
 export * from "./content/Header"
 export * from "./content/Main"
-export * from "./content/Projects"
-export * from "./content/About"
+export * from "./content/ProjectsSection"
+export * from "./content/AboutSection"
 export * from "./content/ExperienceSection"
 
 export * from "./header/Nav"
 export { NavLink } from "./header/NavLink"
 
 export * from "./experience/ExperienceItem"
+
+export * from "./projects/ProjectItem"

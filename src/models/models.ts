@@ -6,10 +6,18 @@ export interface Experience {
     previousRole: Array<string>;
     description: string;
     technologies: Array<string>;
-    projects: Array<Project>;
+    workProjects: Array<WorkProjects>;
+}
+
+export interface WorkProjects {
+    name: string;
+    url: string;
 }
 
 export interface Project {
-    name: string;
+    name:string;
     url: string;
+    description: string;
+    technologies: Array<string>;
+    imageUrl: string;
 }

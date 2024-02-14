@@ -12,15 +12,15 @@
         }
     },
     "about":{
-        "p1":"Desde 2021, he iniciado mi trayectoria profesional en Thalamus SA como Account Analyst.",
-        "p2":"En 2023, decidí dar un paso adelante al unirme al equipo de desarrollo, lo que ha significado una oportunidad invaluable para expandir mis habilidades técnicas y capacitarme para enfrentar una variedad de desafíos.",
-        "p3":"Mi objetivo primordial es avanzar en mi carrera buscando oportunidades que me permitan crecer profesionalmente y contribuir al éxito continuo de la organización. Estoy firmemente comprometido a desarrollar tanto mis habilidades en tecnología como en negocios, buscando siempre superar los límites y agregar valor donde sea posible."
+        "p1":"Tras dedicar mi tiempo a mi formación desde 2019, he tenido la oportunidad de iniciar mi trayectoria profesional en Thalamus SA como Account Analyst desde el 2021. En este puesto, si bien no estaba directamente involucrado en la programación, obtuve experiencia al colaborar estrechamente con programadores, siendo responsable de realizar solicitudes y pruebas.",
+        "p2":"En 2023, como reconocimiento a mi buen desempeño, se me ofreció la oportunidad de unirme al equipo de desarrollo como Desarrollador Web Fullstack Trainee. Durante este tiempo, amplié mis conocimientos al adentrarme en Angular y PHP, tecnologías que no había utilizado previamente.",
+        "p3":"Mi objetivo primordial es avanzar en mi carrera en busca de oportunidades que me permitan crecer profesionalmente y contribuir al constante progreso de la organización. Estoy firmemente comprometido a desarrollar tanto mis habilidades en tecnología como en negocios, siempre buscando superar los límites y agregar valor donde sea posible."
     },
     "experience":{
         "thalamusDev": {
             "date": "2023 - Hoy",
             "role": "Desarrollador Web Fullstack",
-            "description": "Construir, actualizar y dar mantenimiento a PWAs, landing pages, e-commerce y otros tipo de sitios web, para proyectos de clientes importantes como los son BAT, Renault, McCain, Tabsar, entre otras. Participando tanto en el desarrollo Frontend, asi como en el Backend al construir APIs específicas de los proyectos que utilizan como integración la API de Thalamus."
+            "description": "Responsable de desarrollar, actualizar y mantener Progressive Web Apps (PWAs), landing pages, e-commerce y diversos sitios web para proyectos de clientes importantes, tales como BAT, Renault, McCain, Tabsar, entre otros. Participación activa tanto en el desarrollo Frontend como del Backend, creando APIs específicas que se basan en la integración de la API de Thalamus."
         },
         "thalamusAA": {
             "date": "2021 - 2023",
@@ -28,5 +28,13 @@
             "description": "Responsable de la gestión y análisis de cuentas corporativas, incluyendo seguimiento detallado y evaluación de rendimiento de las mismas. Así también, de la generación de informes para el equipo del cliente basados en análisis de datos. Todo esto manteniendo comunicación con el equipo interno y los clientes para juntos colaborar con el logro de los objetivos empresariales."
         },
         "view": "Ver resumen completo"
+    },
+    "projects":{
+        "view1": "Ver todos los ",
+        "view2": "proyectos",
+        "myglo":{
+            "name":"My Glo - Bulgaria",
+            "description": "Responsable de la gestión y análisis de cuentas corporativas, incluyendo seguimiento detallado y evaluación de rendimiento de las mismas. Así también, de la generación de informes para el equipo del cliente basados en análisis de datos. Todo esto manteniendo comunicación con el equipo interno y los clientes para juntos colaborar con el logro de los objetivos empresariales."
+        }
     }
 }

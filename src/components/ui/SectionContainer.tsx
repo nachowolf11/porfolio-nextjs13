@@ -18,7 +18,7 @@ export const SectionContainer = ({children, sectionName}:Props) => {
     }
 
     const { ref } = useIntersectionObserver({
-        threshold: 0.5,
+        threshold: 0.7,
         onChange: onChange,
         rootMargin:'96px'
     });
