@@ -39,6 +39,10 @@
         "conectados":{
             "name":"Conectados BAT",
             "description": "Programa de incentivo de ventas para el staff de tiendas con venta al público. En ella se publican objetivos de ventas mensuales a cumplir por el local, lo que permite acceder a premios en caso de cumplirlos. Mi rol en este proyecto es dar mantenimiento a la aplicacion e implementar pequeñas características adicionales que se solicitan agregar."
+        },
+        "portfoliov1":{
+            "name":"Portfolio v1",
+            "description": "Mi primer portfolio realizado en React."
         }
     }
 }
