@@ -43,6 +43,20 @@
         "portfoliov1":{
             "name":"Portfolio v1",
             "description": "Mi primer portfolio realizado en React."
+        },
+        "twitter":{
+            "name":"Clon de Twitter",
+            "description": "Aplicación que replica las principales funcionalidades de Twitter. Contiene todo el apartado de autenticación, la posibilidad de Twittear, dar likes, retwittear. Tambien el perfil personal en donde puede visualizar tus tweets, los que likeaste y retwitteaste."
+        }
+    },
+    "archive":{
+        "allProjects": "Todos los proyectos",
+        "tableHeaders":{
+            "year":"Año",
+            "project": "Proyecto",
+            "madeAt": "Hecho en",
+            "technologies": "Tecnologías",
+            "link": "Enlace"
         }
     }
 }

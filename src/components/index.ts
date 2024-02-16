@@ -14,3 +14,4 @@ export { NavLink } from "./header/NavLink"
 export * from "./experience/ExperienceItem"
 
 export * from "./projects/ProjectItem"
+export * from "./projects/ProjectTableItem"

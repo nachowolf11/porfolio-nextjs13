@@ -20,4 +20,6 @@ export interface Project {
     description: string;
     technologies: Array<string>;
     imageUrl: string;
+    company: string;
+    year: number;
 }

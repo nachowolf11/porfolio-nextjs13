@@ -9,22 +9,28 @@ const projects: Array<Project> = [
     name: 'myglo.name',
     url: 'https://www.myglo.bg/',
     description: 'myglo.description',
-    technologies: ['Angular', 'PHP', 'Laravel'],
-    imageUrl: '/projects/myglobg.jpg'
+    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel'],
+    imageUrl: '/projects/myglobg.jpg',
+    company:'Thalamus SA',
+    year: 0
   },
   {
     name: 'conectados.name',
     url: 'https://conectadosbat.com/',
     description: 'conectados.description',
-    technologies: ['Angular', 'PHP', 'Laravel'],
-    imageUrl: '/projects/conectados.jpg'
+    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel'],
+    imageUrl: '/projects/conectados.jpg',
+    company:'Thalamus SA',
+    year: 0
   },
   {
     name: 'portfoliov1.name',
     url: 'https://nachowolf11.github.io/portfolio/',
     description: 'portfoliov1.description',
     technologies: ['React'],
-    imageUrl: '/projects/portfoliov1.jpg'
+    imageUrl: '/projects/portfoliov1.jpg',
+    company:'',
+    year: 0
   },
 ];
 
