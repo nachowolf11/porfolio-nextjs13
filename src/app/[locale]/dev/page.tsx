@@ -1,19 +1,11 @@
 import { Header, Main } from "@/components";
-import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
+import { unstable_setRequestLocale } from "next-intl/server";
 import { fontSans } from "@/config/fonts";
 
 interface Props {
   params: {
     locale: string;
   }
-}
-
-export async function generateMetadata({params: {locale}}:Props) {
-  const t = await getTranslations({locale, namespace: 'Metadata'});
- 
-  return {
-    title: t('title')
-  };
 }
 
 export default function Home({ params }:Props) {

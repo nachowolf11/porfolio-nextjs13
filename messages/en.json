@@ -1,6 +1,14 @@
 {
-    "Metadata": {
-        "title":"Ignacio Wolf"
+    "metadata": {
+        "index": {
+            "title":"Ignacio Wolf",
+            "description":"Welcome to my web portfolio. I'm Ignacio Wolf, a passionate full stack web developer with experience in creating modern and scalable web applications. Take a look at my work and discover how I can help you take your project to the next level.",
+            "keywords":"Full Stack Developer, Web Developer, Frontend, Backend, React.js, Angular, PHP, JavaScript, Node.js, Next.js, Web Development, Web Pages, Individuals, Companies, Web Maintenance, UI/UX Design, HTML5, CSS3, TypeScript, Git."
+        },
+        "archive": {
+            "title":"Archive | Ignacio Wolf",
+            "description":""
+        }
     },
     "header":{
         "role":"Fullstack Web Developer",

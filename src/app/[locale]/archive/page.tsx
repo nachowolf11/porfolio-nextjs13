@@ -2,8 +2,22 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { projectsArchive } from '../../../data/projectsArchive';
 import { ProjectTableItem } from "@/components";
+import { getTranslations } from "next-intl/server";
 
+interface Props {
+  params: {
+    locale: string;
+  }
+}
 
+export async function generateMetadata({params: {locale}}:Props) {
+  const t = await getTranslations({locale, namespace: 'metadata.archive'});
+ 
+  return {
+    title: t('title'),
+    description:t('description')
+  };
+}
 
 export default function ArchivePage() {
   const t = useTranslations('archive');
