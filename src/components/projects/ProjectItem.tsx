@@ -30,7 +30,7 @@ export const ProjectItem = ({ description, name, technologies, url, imageUrl }:P
                 <ul className="mt-2 flex flex-wrap">
                     {
                         technologies.map( technology => (
-                            <li className="mr-1.5 mt-2">
+                            <li key={technology} className="mr-1.5 mt-2">
                                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                                     {technology}
                                 </div>

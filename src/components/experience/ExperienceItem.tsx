@@ -33,7 +33,7 @@ export const ExperienceItem = ({date, url, role, company, previousRole, descript
                     { 
                         !!previousRole &&
                         previousRole.map( role => (
-                            <div className="text-slate-500" id={role}>
+                            <div key={role} className="text-slate-500" id={role}>
                                 {role}
                             </div>
                         ))
@@ -63,7 +63,7 @@ export const ExperienceItem = ({date, url, role, company, previousRole, descript
                 <ul className="mt-2 flex flex-wrap">
                     {
                         technologies.map( technology => (
-                            <li className="mr-1.5 mt-2">
+                            <li key={technology} className="mr-1.5 mt-2">
                                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                                     {technology}
                                 </div>

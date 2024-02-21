@@ -34,7 +34,7 @@ export const ProjectTableItem = ({ year, name, url, technologies, company }: Pro
                 <ul className='flex -translate-y-1.5 flex-wrap'>
                     {
                         technologies.map(technology => (
-                            <li className="mr-1.5 mt-2">
+                            <li key={technology} className="mr-1.5 mt-2">
                                 <div className="flex items-center rounded-full bg-teal-400/10 px-3 py-1 text-xs font-medium leading-5 text-teal-300 ">
                                     {technology}
                                 </div>
