@@ -10,6 +10,7 @@ export * from "./content/ExperienceSection"
 
 export * from "./header/Nav"
 export { NavLink } from "./header/NavLink"
+export { SwitchLanguage } from "./header/SwitchLanguage"
 
 export * from "./experience/ExperienceItem"
 

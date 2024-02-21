@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl"
 import Link from "next/link"
-import { Nav } from "..";
+import { Nav, SwitchLanguage } from "..";
 import { IoLogoGithub, IoLogoInstagram, IoLogoLinkedin } from "react-icons/io";
 
 const socialNetworks = [
@@ -21,7 +21,7 @@ const socialNetworks = [
     }
 ];
 
-export const Header = () => {
+export const Header = ({locale}:{locale: string}) => {
     const t = useTranslations('header');
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24">
@@ -50,6 +50,9 @@ export const Header = () => {
                     </li>
                 ))
             }
+            <li className="mr-5 text-xs shrink-0">
+                <SwitchLanguage locale={locale}/>
+            </li>
         </ul>
     </header>
   )

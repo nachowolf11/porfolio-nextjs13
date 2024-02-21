@@ -1,9 +1,62 @@
 {
     "Metadata": {
-        "title":"Web Developer"
+        "title":"Ignacio Wolf"
     },
-    "header": {
+    "header":{
         "role":"Fullstack Web Developer",
-        "description":""
+        "description":"I build websites as part of my work with Thalamus SA, and I also take on freelance projects.",
+        "sections":{
+            "about":"About",
+            "experience":"Experience",
+            "projects":"Projects"
+        }
+    },
+    "about":{
+        "p1":"After dedicating my time to my education since 2019, I had the opportunity to start my professional career at Thalamus SA as an Account Analyst since 2021. In this role, although I wasn't directly involved in programming, I gained experience by closely collaborating with developers, being responsible for making requests and conducting tests.",
+        "p2":"In 2023, as recognition of my good performance, I was offered the opportunity to join the development team as a Fullstack Web Developer Trainee. During this time, I expanded my knowledge by delving into Angular and PHP, technologies that I had not previously used.",
+        "p3":"My primary goal is to advance in my career, seeking opportunities that allow me to grow professionally and contribute to the continuous progress of the organization. I am firmly committed to developing both my technology and business skills, always striving to surpass limits and add value wherever possible."
+    },
+    "experience":{
+        "thalamusDev": {
+            "date": "2023 - Today",
+            "role": "Fullstack Web Developer",
+            "description": "Responsible for developing, updating, and maintaining Progressive Web Apps (PWAs), landing pages, e-commerce, and various websites for projects of major clients, such as BAT, Renault, McCain, Tabsar, among others. Actively involved in both Frontend and Backend development, creating specific APIs that rely on the integration of the Thalamus API."
+        },
+        "thalamusAA": {
+            "date": "2021 - 2023",
+            "role": "Account Analyst",
+            "description": "Responsible for the management and analysis of corporate accounts, including detailed tracking and performance evaluation. Also tasked with generating reports for the client team based on data analysis. All while maintaining communication with the internal team and clients to collaborate on achieving business objectives."
+        },
+        "view": "View Full Résumé"
+    },
+    "projects":{
+        "view1": "View Full Project ",
+        "view2": "Archive ",
+        "myglo":{
+            "name":"My Glo - Bulgaria",
+            "description": "The BAT Bulgaria e-commerce platform for the Glo electronic cigarette brand encompasses all the features that a modern e-commerce store should have. One of the most significant contributions to the project has been the implementation of the discount system, both automatic and manual. These discounts are applied intelligently, either when the user meets certain specific conditions or when they enter a discount code during the purchase process."
+        },
+        "conectados":{
+            "name":"Conectados BAT",
+            "description": "The sales incentive program targets the retail staff, where monthly sales targets for each store are published, offering rewards upon achievement. My role in this project involves maintaining the application and implementing additional features as requested."
+        },
+        "portfoliov1":{
+            "name":"Portfolio v1",
+            "description": "My first portfolio developed in React."
+        },
+        "twitter":{
+            "name":"Twitter Clone",
+            "description": "Application that replicates the main functionalities of Twitter. It includes the entire authentication section, the ability to tweet, like, and retweet. It also features a personal profile where you can view your tweets, the ones you liked, and retweeted."
+        }
+    },
+    "archive":{
+        "allProjects": "All Projects",
+        "tableHeaders":{
+            "year":"Year",
+            "project": "Project",
+            "madeAt": "Made at",
+            "technologies": "Technologies",
+            "link": "Link"
+        }
     }
 }
