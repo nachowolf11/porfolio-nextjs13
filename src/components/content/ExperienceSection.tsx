@@ -1,6 +1,6 @@
 import { Experience } from "@/models/models";
 import { ExperienceItem } from "..";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { MdArrowOutward } from "react-icons/md";
 
 const experiences: Array<Experience> = [
@@ -41,6 +41,8 @@ const experiences: Array<Experience> = [
 
 export const ExperienceSection = () => {
   const t = useTranslations('experience');
+  const locale = useLocale();
+  
   return (
     <div>
       <ol className="group/list">
@@ -52,7 +54,11 @@ export const ExperienceSection = () => {
       </ol>
 
       <div className="mt-12">
-          <a href="" className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+          <a 
+            href={locale === 'es' ? '/resumen.pdf' : '/resume.pdf'}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
             <span>
               {t('view')}
               <span className="inline-block">
