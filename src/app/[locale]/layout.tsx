@@ -1,6 +1,7 @@
 import "@/app/globals.css";
 import { Mousefollow } from "@/components";
 import { getTranslations } from "next-intl/server";
+import GoogleAnalytics from '@/components/googleAnalytics/GoogleAnalytics';
 
 
 interface Props {
@@ -29,6 +30,7 @@ export default function RootLayout({
   return (
     <html lang={ locale } suppressHydrationWarning>
       <body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+        <GoogleAnalytics/>
         <Mousefollow/>
         {children}
       </body>

@@ -16,3 +16,5 @@ export * from "./experience/ExperienceItem"
 
 export * from "./projects/ProjectItem"
 export * from "./projects/ProjectTableItem"
+
+export * from "./googleAnalytics/GoogleAnalytics"
