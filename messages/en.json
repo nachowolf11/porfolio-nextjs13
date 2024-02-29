@@ -44,6 +44,9 @@
             "name":"My Glo - Bulgaria",
             "description": "The BAT Bulgaria e-commerce platform for the Glo electronic cigarette brand encompasses all the features that a modern e-commerce store should have. One of the most significant contributions to the project has been the implementation of the discount system, both automatic and manual. These discounts are applied intelligently, either when the user meets certain specific conditions or when they enter a discount code during the purchase process."
         },
+        "vuse":{
+            "name":"Vuse Go - Bulgaria"
+        },
         "conectados":{
             "name":"Conectados BAT",
             "description": "The sales incentive program targets the retail staff, where monthly sales targets for each store are published, offering rewards upon achievement. My role in this project involves maintaining the application and implementing additional features as requested."
@@ -55,6 +58,12 @@
         "twitter":{
             "name":"Twitter Clone",
             "description": "Application that replicates the main functionalities of Twitter. It includes the entire authentication section, the ability to tweet, like, and retweet. It also features a personal profile where you can view your tweets, the ones you liked, and retweeted."
+        },
+        "financeapp":{
+            "name":"Finance App"
+        },
+        "myrenault":{
+            "name":"My Renault"
         }
     },
     "archive":{
