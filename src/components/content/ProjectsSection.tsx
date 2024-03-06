@@ -7,31 +7,31 @@ import { ProjectItem } from "..";
 const projects: Array<Project> = [
   {
     name: 'myglo.name',
-    url: 'https://www.myglo.bg/',
+    url: 'https://myglo.bg',
     description: 'myglo.description',
-    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel'],
+    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
     imageUrl: '/projects/myglobg.jpg',
     company:'Thalamus SA',
-    year: 0
+    year: 2023
   },
   {
     name: 'conectados.name',
-    url: 'https://conectadosbat.com/',
+    url: 'https://conectadosbat.com',
     description: 'conectados.description',
-    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel'],
+    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
     imageUrl: '/projects/conectados.jpg',
     company:'Thalamus SA',
-    year: 0
+    year: 2023
   },
   {
-    name: 'portfoliov1.name',
-    url: 'https://nachowolf11.github.io/portfolio/',
-    description: 'portfoliov1.description',
-    technologies: ['React'],
-    imageUrl: '/projects/portfoliov1.jpg',
-    company:'',
-    year: 0
-  },
+    name: 'turnorenault.name',
+    url: 'https://miturnorenault.com',
+    description: 'turnorenault.description',
+    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
+    imageUrl: '/projects/turnorenault.png',
+    company:'Thalamus SA',
+    year: 2023
+  }
 ];
 
 export const ProjectsSection = () => {

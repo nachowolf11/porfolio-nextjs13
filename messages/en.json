@@ -64,6 +64,10 @@
         },
         "myrenault":{
             "name":"My Renault"
+        },
+        "turnorenault":{
+            "name":"Mi Turno Renault",
+            "description": "Renault's PWA streamlines the management of appointments for car services. The application enables users to easily and efficiently schedule maintenance and services appointments. With an intuitive interface and optimized features."
         }
     },
     "archive":{

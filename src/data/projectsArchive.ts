@@ -2,6 +2,15 @@ import { Project } from "@/models/models";
 
 export const projectsArchive: Array<Project> = [
     {
+      name: 'turnorenault.name',
+      url: 'https://miturnorenault.com',
+      description: 'turnorenault.description',
+      technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
+      imageUrl: '/projects/turnorenault.jpg',
+      company:'Thalamus SA',
+      year: 2023
+    },
+    {
         name: 'myglo.name',
         url: 'https://myglo.bg',
         description: 'myglo.description',

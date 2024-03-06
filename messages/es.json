@@ -64,6 +64,10 @@
         },
         "myrenault":{
             "name":"My Renault"
+        },
+        "turnorenault":{
+            "name":"Mi Turno Renault",
+            "description": "PWA de la marca Renault que facilita la gestión de turnos para servicios de automóviles. La aplicación permite a los usuarios reservar citas para mantenimiento y servicios con facilidad y eficiencia. Con una interfaz intuitiva y funciones optimizadas."
         }
     },
     "archive":{
