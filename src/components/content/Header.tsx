@@ -13,11 +13,6 @@ const socialNetworks = [
         url: 'https://www.linkedin.com/in/ignacio-wolf-890642164/',
         label: 'LinkedIn',
         icon: <IoLogoLinkedin className="h-6 w-6"/>
-    },
-    {
-        url: 'https://www.instagram.com/nachowolf/',
-        label: 'Instagram',
-        icon: <IoLogoInstagram className="h-6 w-6"/>
     }
 ];
 
