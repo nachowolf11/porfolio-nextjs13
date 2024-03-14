@@ -1,6 +1,8 @@
 export { Mousefollow } from "./ui/MouseFollow"
 export { ThemeSwitch } from "./ui/ThemeSwitch"
 export { SectionContainer } from "./ui/SectionContainer"
+export { SectionTitle } from "./ui/SectionTitle"
+export { TitleSkeleton } from "./ui/TitleSkeleton"
 
 export * from "./content/Header"
 export * from "./content/Main"
