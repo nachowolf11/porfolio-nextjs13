@@ -27,7 +27,7 @@ export const ProjectTableItem = ({ year, name, url, technologies, company }: Pro
             </td>
             <td className='hidden py-4 pr-4 align-top text-sm lg:table-cell'>
                 <div className='translate-y-px whitespace-nowrap'>
-                    {company}
+                    { !!company ? company : t('ownProject') }
                 </div>
             </td>
             <td className='hidden py-4 pr-4 align-top lg:table-cell'>
@@ -46,7 +46,7 @@ export const ProjectTableItem = ({ year, name, url, technologies, company }: Pro
             <td className='hidden py-4 align-top sm:table-cell'>
                 {
                     !!url &&
-                    <a href={url} className='inline-flex items-baseline font-medium leading-tight hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 group/link'>
+                    <a href={url} target='_blank' className='inline-flex items-baseline font-medium leading-tight hover:text-teal-300 focus-visible:text-teal-300 text-sm text-slate-400 group/link'>
                         <span>
                             <span className="inline-block">
                                 {url.replace('https://', '')}

@@ -40,6 +40,7 @@
     "projects":{
         "view1": "View Full Project ",
         "view2": "Archive ",
+        "ownProject": "Own Project",
         "myglo":{
             "name":"My Glo - Bulgaria",
             "description": "The BAT Bulgaria e-commerce platform for the Glo electronic cigarette brand encompasses all the features that a modern e-commerce store should have. One of the most significant contributions to the project has been the implementation of the discount system, both automatic and manual. These discounts are applied intelligently, either when the user meets certain specific conditions or when they enter a discount code during the purchase process."
@@ -68,6 +69,10 @@
         "turnorenault":{
             "name":"Mi Turno Renault",
             "description": "Renault's PWA streamlines the management of appointments for car services. The application enables users to easily and efficiently schedule maintenance and services appointments. With an intuitive interface and optimized features."
+        },
+        "redpoint":{
+            "name":"Elegimos Red Point",
+            "description": "This web project for the Redpoint brand by Tabsar includes a comprehensive authentication system and identity validation to ensure users are not minors during registration. The site is designed to be intuitive and secure, offering a reliable experience. It also features an image gallery to showcase products and services, and a contact section to facilitate communication with the company."
         }
     },
     "archive":{

@@ -15,6 +15,15 @@ const projects: Array<Project> = [
     year: 2023
   },
   {
+    name: 'redpoint.name',
+    url: 'https://elegimosredpoint.com.ar',
+    description: 'redpoint.description',
+    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
+    imageUrl: '/projects/redpoint.png',
+    company: 'Thalamus SA',
+    year: 2024
+  },
+  {
     name: 'conectados.name',
     url: 'https://conectadosbat.com',
     description: 'conectados.description',
@@ -23,15 +32,6 @@ const projects: Array<Project> = [
     company:'Thalamus SA',
     year: 2023
   },
-  {
-    name: 'turnorenault.name',
-    url: 'https://miturnorenault.com',
-    description: 'turnorenault.description',
-    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
-    imageUrl: '/projects/turnorenault.png',
-    company:'Thalamus SA',
-    year: 2023
-  }
 ];
 
 export const ProjectsSection = () => {
