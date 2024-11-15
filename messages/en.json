@@ -1,84 +1,89 @@
 {
     "metadata": {
         "index": {
-            "title":"Ignacio Wolf",
-            "description":"Welcome to my web portfolio. I'm Ignacio Wolf, a passionate full stack web developer with experience in creating modern and scalable web applications. Take a look at my work and discover how I can help you take your project to the next level.",
-            "keywords":"Full Stack Developer, Web Developer, Frontend, Backend, React.js, Angular, PHP, JavaScript, Node.js, Next.js, Web Development, Web Pages, Individuals, Companies, Web Maintenance, UI/UX Design, HTML5, CSS3, TypeScript, Git."
+            "title": "Ignacio Wolf",
+            "description": "Welcome to my web portfolio. I'm Ignacio Wolf, a passionate full stack web developer with experience in creating modern and scalable web applications. Take a look at my work and discover how I can help you take your project to the next level.",
+            "keywords": "Full Stack Developer, Web Developer, Frontend, Backend, React.js, Angular, PHP, JavaScript, Node.js, Next.js, Web Development, Web Pages, Individuals, Companies, Web Maintenance, UI/UX Design, HTML5, CSS3, TypeScript, Git."
         },
         "archive": {
-            "title":"Archive | Ignacio Wolf",
-            "description":""
+            "title": "Archive | Ignacio Wolf",
+            "description": ""
         }
     },
-    "header":{
-        "role":"Fullstack Web Developer",
-        "description":"I build websites as part of my work with Thalamus SA, and I also take on freelance projects.",
-        "sections":{
-            "about":"About",
-            "experience":"Experience",
-            "projects":"Projects"
+    "header": {
+        "role": "Fullstack Web Developer",
+        "description": "I create modern digital solutions for businesses and individual clients, combining functional design and advanced technology.",
+        "sections": {
+            "about": "About",
+            "experience": "Experience",
+            "projects": "Projects"
         }
     },
-    "about":{
-        "p1":"After dedicating my time to my education since 2019, I had the opportunity to start my professional career at Thalamus SA as an Account Analyst since 2021. In this role, although I wasn't directly involved in programming, I gained experience by closely collaborating with developers, being responsible for making requests and conducting tests.",
-        "p2":"In 2023, as recognition of my good performance, I was offered the opportunity to join the development team as a Fullstack Web Developer Trainee. During this time, I expanded my knowledge by delving into Angular and PHP, technologies that I had not previously used.",
-        "p3":"My primary goal is to advance in my career, seeking opportunities that allow me to grow professionally and contribute to the continuous progress of the organization. I am firmly committed to developing both my technology and business skills, always striving to surpass limits and add value wherever possible."
+    "about": {
+        "p1": "After dedicating my time to my education since 2019, I had the opportunity to start my professional career at Thalamus SA as an Account Analyst since 2021. In this role, although I wasn't directly involved in programming, I gained experience by closely collaborating with developers, being responsible for making requests and conducting tests.",
+        "p2": "In 2023, as recognition of my good performance, I was offered the opportunity to join the development team as a Fullstack Web Developer Trainee. During this time, I expanded my knowledge by delving into Angular and PHP, technologies that I had not previously used.",
+        "p3": "My primary goal is to advance in my career, seeking opportunities that allow me to grow professionally and contribute to the continuous progress of the organization. I am firmly committed to developing both my technology and business skills, always striving to surpass limits and add value wherever possible."
     },
-    "experience":{
+    "experience": {
         "thalamusDev": {
-            "date": "2023 - Today",
+            "date": "2023 - 2024",
             "role": "Fullstack Web Developer",
             "description": "Responsible for developing, updating, and maintaining Progressive Web Apps (PWAs), landing pages, e-commerce, and various websites for projects of major clients, such as BAT, Renault, McCain, Tabsar, among others. Actively involved in both Frontend and Backend development, creating specific APIs that rely on the integration of the Thalamus API."
         },
         "thalamusAA": {
-            "date": "2021 - 2023",
+            "date": "2021 - 2022",
             "role": "Account Analyst",
             "description": "Responsible for the management and analysis of corporate accounts, including detailed tracking and performance evaluation. Also tasked with generating reports for the client team based on data analysis. All while maintaining communication with the internal team and clients to collaborate on achieving business objectives."
         },
+        "phinxlab": {
+            "date": "2024 - Present",
+            "role": "Fullstack Web Developer",
+            "description": "Development and maintenance of web applications using React, Node.js, and PostgreSQL. Key contributor to the Mi Escuela project, a platform designed for the Government of the City of Buenos Aires, handling thousands of concurrent users while ensuring scalability, performance, and reliability. Actively collaborating with multidisciplinary teams to meet client objectives."
+        },
         "view": "View Full Résumé"
     },
-    "projects":{
+    "projects": {
         "view1": "View Full Project ",
         "view2": "Archive ",
         "ownProject": "Own Project",
-        "myglo":{
-            "name":"My Glo - Bulgaria",
+        "myglo": {
+            "name": "My Glo - Bulgaria",
             "description": "The BAT Bulgaria e-commerce platform for the Glo electronic cigarette brand encompasses all the features that a modern e-commerce store should have. One of the most significant contributions to the project has been the implementation of the discount system, both automatic and manual. These discounts are applied intelligently, either when the user meets certain specific conditions or when they enter a discount code during the purchase process."
         },
-        "vuse":{
-            "name":"Vuse Go - Bulgaria"
+        "vuse": {
+            "name": "Vuse Go - Bulgaria"
         },
-        "conectados":{
-            "name":"Conectados BAT",
+        "conectados": {
+            "name": "Conectados BAT",
             "description": "The sales incentive program targets the retail staff, where monthly sales targets for each store are published, offering rewards upon achievement. My role in this project involves maintaining the application and implementing additional features as requested."
         },
-        "portfoliov1":{
-            "name":"Portfolio v1",
+        "portfoliov1": {
+            "name": "Portfolio v1",
             "description": "My first portfolio developed in React."
         },
-        "twitter":{
-            "name":"Twitter Clone",
+        "twitter": {
+            "name": "Twitter Clone",
             "description": "Application that replicates the main functionalities of Twitter. It includes the entire authentication section, the ability to tweet, like, and retweet. It also features a personal profile where you can view your tweets, the ones you liked, and retweeted."
         },
-        "financeapp":{
-            "name":"Finance App"
+        "financeapp": {
+            "name": "Finance App"
         },
-        "myrenault":{
-            "name":"My Renault"
+        "myrenault": {
+            "name": "My Renault"
         },
-        "turnorenault":{
-            "name":"Mi Turno Renault",
+        "turnorenault": {
+            "name": "Mi Turno Renault",
             "description": "Renault's PWA streamlines the management of appointments for car services. The application enables users to easily and efficiently schedule maintenance and services appointments. With an intuitive interface and optimized features."
         },
-        "redpoint":{
-            "name":"Elegimos Red Point",
+        "redpoint": {
+            "name": "Elegimos Red Point",
             "description": "This web project for the Redpoint brand by Tabsar includes a comprehensive authentication system and identity validation to ensure users are not minors during registration. The site is designed to be intuitive and secure, offering a reliable experience. It also features an image gallery to showcase products and services, and a contact section to facilitate communication with the company."
         }
     },
-    "archive":{
+    "archive": {
         "allProjects": "All Projects",
-        "tableHeaders":{
-            "year":"Year",
+        "tableHeaders": {
+            "year": "Year",
             "project": "Project",
             "madeAt": "Made at",
             "technologies": "Technologies",

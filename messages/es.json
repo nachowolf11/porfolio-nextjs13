@@ -1,84 +1,89 @@
 {
     "metadata": {
         "index": {
-            "title":"Ignacio Wolf",
-            "description":"Bienvenido a mi portfolio web. Soy Ignacio Wolf, un apasionado desarrollador web full stack con experiencia en la creación de aplicaciones web modernas y escalables. Echa un vistazo a mi trabajo y descubre cómo puedo ayudarte a llevar tu proyecto al siguiente nivel.",
-            "keywords":"Desarrollador Full Stack, Desarrollador Web, Frontend, Backend, React.js, Angular, PHP, JavaScript, Node.js, Next.js, Desarrollo Web, Páginas Web, Particulares, Empresas, Mantenimiento Web, UI/UX Design, HTML5, CSS3, TypeScript, Git."
+            "title": "Ignacio Wolf",
+            "description": "Bienvenido a mi portfolio web. Soy Ignacio Wolf, un apasionado desarrollador web full stack con experiencia en la creación de aplicaciones web modernas y escalables. Echa un vistazo a mi trabajo y descubre cómo puedo ayudarte a llevar tu proyecto al siguiente nivel.",
+            "keywords": "Desarrollador Full Stack, Desarrollador Web, Frontend, Backend, React.js, Angular, PHP, JavaScript, Node.js, Next.js, Desarrollo Web, Páginas Web, Particulares, Empresas, Mantenimiento Web, UI/UX Design, HTML5, CSS3, TypeScript, Git."
         },
         "archive": {
-            "title":"Archivo | Ignacio Wolf",
-            "description":""
+            "title": "Archivo | Ignacio Wolf",
+            "description": ""
         }
     },
-    "header":{
-        "role":"Desarrollador Web Fullstack",
-        "description":"Contruyo páginas web trabajando para Thalamus SA y también tomo pedidos particulares.",
-        "sections":{
-            "about":"Sobre mi",
-            "experience":"Experiencia",
-            "projects":"Proyectos"
+    "header": {
+        "role": "Desarrollador Web Fullstack",
+        "description": "Creo soluciones digitales modernas para empresas y clientes particulares, combinando diseño funcional y tecnología avanzada.",
+        "sections": {
+            "about": "Sobre mi",
+            "experience": "Experiencia",
+            "projects": "Proyectos"
         }
     },
-    "about":{
-        "p1":"Tras dedicar mi tiempo a mi formación desde 2019, he tenido la oportunidad de iniciar mi trayectoria profesional en Thalamus SA como Account Analyst desde el 2021. En este puesto, si bien no estaba directamente involucrado en la programación, obtuve experiencia al colaborar estrechamente con programadores, siendo responsable de realizar solicitudes y pruebas.",
-        "p2":"En 2023, como reconocimiento a mi buen desempeño, se me ofreció la oportunidad de unirme al equipo de desarrollo como Desarrollador Web Fullstack Trainee. Durante este tiempo, amplié mis conocimientos al adentrarme en Angular y PHP, tecnologías que no había utilizado previamente.",
-        "p3":"Mi objetivo primordial es avanzar en mi carrera en busca de oportunidades que me permitan crecer profesionalmente y contribuir al constante progreso de la organización. Estoy firmemente comprometido a desarrollar tanto mis habilidades en tecnología como en negocios, siempre buscando superar los límites y agregar valor donde sea posible."
+    "about": {
+        "p1": "Tras dedicar mi tiempo a mi formación desde 2019, he tenido la oportunidad de iniciar mi trayectoria profesional en Thalamus SA como Account Analyst desde el 2021. En este puesto, si bien no estaba directamente involucrado en la programación, obtuve experiencia al colaborar estrechamente con programadores, siendo responsable de realizar solicitudes y pruebas.",
+        "p2": "En 2023, como reconocimiento a mi buen desempeño, se me ofreció la oportunidad de unirme al equipo de desarrollo como Desarrollador Web Fullstack Trainee. Durante este tiempo, amplié mis conocimientos al adentrarme en Angular y PHP, tecnologías que no había utilizado previamente.",
+        "p3": "Mi objetivo primordial es avanzar en mi carrera en busca de oportunidades que me permitan crecer profesionalmente y contribuir al constante progreso de la organización. Estoy firmemente comprometido a desarrollar tanto mis habilidades en tecnología como en negocios, siempre buscando superar los límites y agregar valor donde sea posible."
     },
-    "experience":{
+    "experience": {
         "thalamusDev": {
-            "date": "2023 - Hoy",
+            "date": "2023 - 2024",
             "role": "Desarrollador Web Fullstack",
             "description": "Responsable de desarrollar, actualizar y mantener Progressive Web Apps (PWAs), landing pages, e-commerce y diversos sitios web para proyectos de clientes importantes, tales como BAT, Renault, McCain, Tabsar, entre otros. Participación activa tanto en el desarrollo Frontend como del Backend, creando APIs específicas que se basan en la integración de la API de Thalamus."
         },
         "thalamusAA": {
-            "date": "2021 - 2023",
+            "date": "2021 - 2022",
             "role": "Analista de cuenta",
             "description": "Responsable de la gestión y análisis de cuentas corporativas, incluyendo seguimiento detallado y evaluación de rendimiento de las mismas. Así también, de la generación de informes para el equipo del cliente basados en análisis de datos. Todo esto manteniendo comunicación con el equipo interno y los clientes para juntos colaborar con el logro de los objetivos empresariales."
         },
+        "phinxlab": {
+            "date": "2024 - Hoy",
+            "role": "Desarrollador Web Fullstack",
+            "description": "Desarrollo y mantenimiento de aplicaciones web utilizando React, Node.js y PostgreSQL. Participación destacada en el proyecto Mi Escuela, una plataforma diseñada para el Gobierno de la Ciudad de Buenos Aires que gestiona miles de usuarios simultáneamente, garantizando escalabilidad, rendimiento y confiabilidad. Colaboración activa con equipos multidisciplinarios para cumplir con los objetivos del cliente."
+        },
         "view": "Ver resumen completo"
     },
-    "projects":{
+    "projects": {
         "view1": "Ver todos los ",
         "view2": "proyectos",
         "ownProject": "Proyecto propio",
-        "myglo":{
-            "name":"My Glo - Bulgaria",
+        "myglo": {
+            "name": "My Glo - Bulgaria",
             "description": "E-commerce de BAT Bulgaria para la marca de cigarrillos electrónicos Glo, que ofrece toda característica que un comercio electrónico moderno debería tener. Una de las contribuciones más significativas al proyecto ha sido la implementación del sistema de descuentos, tanto automáticos como manuales. Estos descuentos se aplican de manera inteligente, ya sea cuando el usuario cumple ciertas condiciones específicas o cuando ingresa un código de descuento durante el proceso de compra."
         },
-        "vuse":{
-            "name":"Vuse Go - Bulgaria"
+        "vuse": {
+            "name": "Vuse Go - Bulgaria"
         },
-        "conectados":{
-            "name":"Conectados BAT",
+        "conectados": {
+            "name": "Conectados BAT",
             "description": "Programa de incentivo de ventas para el staff de tiendas con venta al público. En ella se publican objetivos de ventas mensuales a cumplir por el local, lo que permite acceder a premios en caso de cumplirlos. Mi rol en este proyecto es dar mantenimiento a la aplicacion e implementar pequeñas características adicionales que se solicitan agregar."
         },
-        "portfoliov1":{
-            "name":"Portfolio v1",
+        "portfoliov1": {
+            "name": "Portfolio v1",
             "description": "Mi primer portfolio realizado en React."
         },
-        "twitter":{
-            "name":"Clon de Twitter",
+        "twitter": {
+            "name": "Clon de Twitter",
             "description": "Aplicación que replica las principales funcionalidades de Twitter. Contiene todo el apartado de autenticación, la posibilidad de Twittear, dar likes, retwittear. Tambien el perfil personal en donde puede visualizar tus tweets, los que likeaste y retwitteaste."
         },
-        "financeapp":{
-            "name":"Finance App"
+        "financeapp": {
+            "name": "Finance App"
         },
-        "myrenault":{
-            "name":"My Renault"
+        "myrenault": {
+            "name": "My Renault"
         },
-        "turnorenault":{
-            "name":"Mi Turno Renault",
+        "turnorenault": {
+            "name": "Mi Turno Renault",
             "description": "PWA de la marca Renault que facilita la gestión de turnos para servicios de automóviles. La aplicación permite a los usuarios reservar citas para mantenimiento y servicios con facilidad y eficiencia. Con una interfaz intuitiva y funciones optimizadas."
         },
-        "redpoint":{
-            "name":"Elegimos Red Point",
+        "redpoint": {
+            "name": "Elegimos Red Point",
             "description": "Este proyecto web para la marca Redpoint de Tabsar incluye un sistema completo de autenticación y validación de identidad para asegurar que los usuarios no sean menores de edad durante el registro. La página está diseñada para ser intuitiva y segura, ofreciendo una experiencia confiable. También presenta una galería de imágenes para destacar productos y servicios, y una sección de contacto para facilitar la comunicación con la empresa."
         }
     },
-    "archive":{
+    "archive": {
         "allProjects": "Todos los proyectos",
-        "tableHeaders":{
-            "year":"Año",
+        "tableHeaders": {
+            "year": "Año",
             "project": "Proyecto",
             "madeAt": "Hecho en",
             "technologies": "Tecnologías",

@@ -5,13 +5,28 @@ import { MdArrowOutward } from "react-icons/md";
 
 const experiences: Array<Experience> = [
   {
+    date: 'phinxlab.date',
+    url: 'https://www.phinxlab.com/',
+    role: 'thalamusDev.role',
+    company: 'Phinx',
+    previousRole: [],
+    description: 'phinxlab.description',
+    technologies: ['React', 'JavaScript', 'TypeScript', 'Node.js', 'HTML & CSS', 'PostgreSQL'],
+    workProjects: [
+      {
+        name: 'Mi Escuela',
+        url: 'https://miescuela.bue.edu.ar/'
+      },
+    ]
+  },
+  {
     date: 'thalamusDev.date',
     url: 'https://thalamus.global/',
     role: 'thalamusDev.role',
     company: 'Thalamus SA',
     previousRole: [],
     description: 'thalamusDev.description',
-    technologies: [ 'Angular', 'React', 'JavaScript', 'TypeScript', 'PHP', 'Laravel', 'HTML & CSS', 'Codeigniter', 'jQuery'],
+    technologies: ['Angular', 'React', 'JavaScript', 'TypeScript', 'PHP', 'Laravel', 'HTML & CSS', 'Codeigniter', 'jQuery'],
     workProjects: [
       {
         name: 'Glo',
@@ -34,7 +49,7 @@ const experiences: Array<Experience> = [
     company: 'Thalamus SA',
     previousRole: [],
     description: 'thalamusAA.description',
-    technologies: [ 'MySQL', 'HTML & CSS', 'Postman'],
+    technologies: ['MySQL', 'HTML & CSS', 'Postman'],
     workProjects: []
   },
 ];
@@ -42,30 +57,30 @@ const experiences: Array<Experience> = [
 export const ExperienceSection = () => {
   const t = useTranslations('experience');
   const locale = useLocale();
-  
+
   return (
     <div>
       <ol className="group/list">
-          {
-            experiences.map( experience => (
-              <ExperienceItem key={experience.role} {...experience}/>
-            ))
-          }
+        {
+          experiences.map(experience => (
+            <ExperienceItem key={experience.role} {...experience} />
+          ))
+        }
       </ol>
 
       <div className="mt-12">
-          <a 
-            href={locale === 'es' ? '/resumen.pdf' : '/resume.pdf'}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
-            <span>
-              {t('view')}
-              <span className="inline-block">
-                <MdArrowOutward className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px"/>
-              </span>
+        <a
+          href={locale === 'es' ? '/resumen.pdf' : '/resume.pdf'}
+          target="_blank"
+          rel="noreferrer noopener"
+          className="inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base">
+          <span>
+            {t('view')}
+            <span className="inline-block">
+              <MdArrowOutward className="inline-block h-4 w-4 shrink-0 transition-transform group-hover/link:-translate-y-1 group-hover/link:translate-x-1 group-focus-visible/link:-translate-y-1 group-focus-visible/link:translate-x-1 motion-reduce:transition-none ml-1 translate-y-px" />
             </span>
-          </a>
+          </span>
+        </a>
       </div>
 
     </div>
