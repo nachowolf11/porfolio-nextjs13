@@ -6,32 +6,32 @@ import { ProjectItem } from "..";
 
 const projects: Array<Project> = [
   {
+    name: 'livosur.name',
+    url: 'https://livosur.com/',
+    description: 'livosur.description',
+    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma'],
+    imageUrl: '/projects/livosur.jpg',
+    company: '',
+    year: 2025
+  },
+  {
+    name: 'miescuela.name',
+    url: 'https://miescuela.bue.edu.ar',
+    description: 'miescuela.description',
+    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+    imageUrl: '/projects/miescuela.png',
+    company: 'Phinxlab',
+    year: 2024
+  },
+  {
     name: 'myglo.name',
     url: 'https://myglo.bg',
     description: 'myglo.description',
     technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
-    imageUrl: '/projects/myglobg.jpg',
+    imageUrl: '/projects/myglo.svg',
     company:'Thalamus SA',
     year: 2023
-  },
-  {
-    name: 'redpoint.name',
-    url: 'https://elegimosredpoint.com.ar',
-    description: 'redpoint.description',
-    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
-    imageUrl: '/projects/redpoint.png',
-    company: 'Thalamus SA',
-    year: 2024
-  },
-  {
-    name: 'conectados.name',
-    url: 'https://conectadosbat.com',
-    description: 'conectados.description',
-    technologies: ['Angular', 'TypeScript', 'PHP', 'Laravel', 'MySQL'],
-    imageUrl: '/projects/conectados.jpg',
-    company:'Thalamus SA',
-    year: 2023
-  },
+  }
 ];
 
 export const ProjectsSection = () => {

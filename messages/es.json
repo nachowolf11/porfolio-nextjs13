@@ -78,6 +78,14 @@
         "redpoint": {
             "name": "Elegimos Red Point",
             "description": "Este proyecto web para la marca Redpoint de Tabsar incluye un sistema completo de autenticación y validación de identidad para asegurar que los usuarios no sean menores de edad durante el registro. La página está diseñada para ser intuitiva y segura, ofreciendo una experiencia confiable. También presenta una galería de imágenes para destacar productos y servicios, y una sección de contacto para facilitar la comunicación con la empresa."
+        },
+        "miescuela": {
+            "name": "Mi Escuela BA",
+            "description": "Participo en el desarrollo y mantenimiento de una plataforma utilizada por escuelas públicas y privadas del Gobierno de la Ciudad de Buenos Aires. Mis tareas incluyen la implementación de nuevas funcionalidades, mejora del código, corrección de errores y optimización del sistema para mejorar su rendimiento y usabilidad."
+        },
+        "livosur": {
+            "name": "Li.Vo.Sur",
+            "description": "Desarrollé y gestiono integralmente el sistema web de la Li.Vo.Sur, que incluye un apartado público para la visualización de información de la liga y un backoffice para la administración completa. La plataforma cuenta con módulos para la gestión de transferencias de jugadores, pagos e inscripciones, optimizando la organización y operación de la liga."
         }
     },
     "archive": {

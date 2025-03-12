@@ -2,6 +2,24 @@ import { Project } from "@/models/models";
 
 export const projectsArchive: Array<Project> = [
   {
+    name: 'livosur.name',
+    url: 'https://livosur.com',
+    description: 'livosur.description',
+    technologies: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma'],
+    imageUrl: '/projects/livosur.jpg',
+    company: 'Li.Vo.Sur',
+    year: 2025
+  },
+  {
+    name: 'miescuela.name',
+    url: 'https://miescuela.bue.edu.ar',
+    description: 'miescuela.description',
+    technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL'],
+    imageUrl: '/projects/miescuela.png',
+    company: 'Phinxlab',
+    year: 2024
+  },
+  {
     name: 'redpoint.name',
     url: 'https://elegimosredpoint.com.ar',
     description: 'redpoint.description',

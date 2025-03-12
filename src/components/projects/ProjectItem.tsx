@@ -40,7 +40,7 @@ export const ProjectItem = ({ description, name, technologies, url, imageUrl }:P
                 </ul>
             </div>
 
-            <Image src={imageUrl} alt={name} loading="lazy" width={200} height={48} decoding="async" className="rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"/>
+            <Image src={imageUrl} alt={name} loading="lazy" width={200} height={50} decoding="async" className="w-[100px] rounded transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"/>
         </div>
     </li>
   )
