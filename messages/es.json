@@ -20,25 +20,27 @@
         }
     },
     "about": {
-        "p1": "Tras dedicar mi tiempo a mi formación desde 2019, he tenido la oportunidad de iniciar mi trayectoria profesional en Thalamus SA como Account Analyst desde el 2021. En este puesto, si bien no estaba directamente involucrado en la programación, obtuve experiencia al colaborar estrechamente con programadores, siendo responsable de realizar solicitudes y pruebas.",
-        "p2": "En 2023, como reconocimiento a mi buen desempeño, se me ofreció la oportunidad de unirme al equipo de desarrollo como Desarrollador Web Fullstack Trainee. Durante este tiempo, amplié mis conocimientos al adentrarme en Angular y PHP, tecnologías que no había utilizado previamente.",
-        "p3": "Mi objetivo primordial es avanzar en mi carrera en busca de oportunidades que me permitan crecer profesionalmente y contribuir al constante progreso de la organización. Estoy firmemente comprometido a desarrollar tanto mis habilidades en tecnología como en negocios, siempre buscando superar los límites y agregar valor donde sea posible."
+        "p1": "Comencé mi camino estudiando Ingeniería en Sistemas en la UTN, motivado por el deseo de resolver problemas reales a través del software. En 2021 tuve mi primera experiencia profesional en Thalamus SA ingresando como Jr Developer, donde trabajé con plataformas internas de alto tráfico y comencé a automatizar procesos con JavaScript y SQL por iniciativa propia. Ese interés técnico me impulsó a formarme como desarrollador Full Stack.",
+        "p2": "Realicé una formación intensiva en Coderhouse, y la complementé con cursos avanzados de React y Next.js. Desde entonces, adopté una mentalidad de mejora continua, dedicando horas diarias al estudio, la práctica y el desarrollo de proyectos reales. Mi paso por Thalamus evolucionó naturalmente hacia el rol de Full Stack Developer, participando en proyectos regionales e internacionales para clientes como British American Tobacco, utilizando stacks como Angular, React, Node.js, Laravel y MySQL.",
+        "p3": "En 2024 me sumé a Phinxlab como Full Stack Engineer para trabajar en MiEscuela, la plataforma educativa del Gobierno de la Ciudad de Buenos Aires, utilizada por más de 1.500 instituciones y millones de usuarios mensuales. Allí aporto en el desarrollo de funcionalidades críticas, refactorización de código legacy, implementación de testing automatizado y diseño de soluciones escalables.",
+        "p4": "En paralelo, lideré como freelance el desarrollo de una plataforma web para Livosur, la liga de vóley del sur bonaerense, digitalizando completamente su operación. Desarrollé una solución full stack con Next.js, Node.js y PostgreSQL, actualmente usada por más de 8.500 jugadores activos y 78 clubes.",
+        "p5": "Hoy busco seguir creciendo como Full Stack Developer en proyectos de impacto, combinando visión de producto, habilidades técnicas sólidas y autonomía para construir soluciones escalables, mantenibles y alineadas a los objetivos del negocio. Me entusiasma seguir perfeccionando mis conocimientos, trabajar en equipo y aportar valor real con cada línea de código."
     },
     "experience": {
         "thalamusDev": {
             "date": "2023 - 2024",
-            "role": "Desarrollador Web Fullstack",
-            "description": "Responsable de desarrollar, actualizar y mantener Progressive Web Apps (PWAs), landing pages, e-commerce y diversos sitios web para proyectos de clientes importantes, tales como BAT, Renault, McCain, Tabsar, entre otros. Participación activa tanto en el desarrollo Frontend como del Backend, creando APIs específicas que se basan en la integración de la API de Thalamus."
+            "role": "Full Stack Developer",
+            "description": "Construí soluciones full-stack utilizando React, Angular, Node.js, Laravel y MySQL para proyectos regionales e internacionales. En Conectados BAT, desarrollé una PWA mobile-first utilizada por entre 15.000 y 20.000 usuarios mensuales en Argentina, Perú y Paraguay. En MyGlo, contribuí al desarrollo de una plataforma de e-commerce internacional, implementando descuentos dinámicos y un programa de referidos que potenciaron la interacción de los usuarios. Finalmente, lideré el desarrollo end-to-end de Red Point, con una implementación visual pixel-perfect basada en Figma, logrando una alta satisfacción por parte del cliente."
         },
         "thalamusAA": {
             "date": "2021 - 2022",
-            "role": "Analista de cuenta",
-            "description": "Responsable de la gestión y análisis de cuentas corporativas, incluyendo seguimiento detallado y evaluación de rendimiento de las mismas. Así también, de la generación de informes para el equipo del cliente basados en análisis de datos. Todo esto manteniendo comunicación con el equipo interno y los clientes para juntos colaborar con el logro de los objetivos empresariales."
+            "role": "Junior Full Stack Developer",
+            "description": "Automaticé procesos clave utilizando JavaScript y SQL, lo que permitió reducir el tiempo de ejecución de 4 horas a 1 hora. Administré 9 plataformas activas en 3 países y gestioné más de 10 tickets mensuales en Jira. Elaboré informes operativos con SQL y Excel, realicé pruebas funcionales y brindé soporte a clientes empresariales. Además, contribuí a que el equipo obtuviera una puntuación de satisfacción de 5/5 en las encuestas internas anuales."
         },
         "phinxlab": {
             "date": "2024 - Hoy",
-            "role": "Desarrollador Web Fullstack",
-            "description": "Desarrollo y mantenimiento de aplicaciones web utilizando React, Node.js y PostgreSQL. Participación destacada en el proyecto Mi Escuela, una plataforma diseñada para el Gobierno de la Ciudad de Buenos Aires que gestiona miles de usuarios simultáneamente, garantizando escalabilidad, rendimiento y confiabilidad. Colaboración activa con equipos multidisciplinarios para cumplir con los objetivos del cliente."
+            "role": "Full Stack Engineer",
+            "description": "Desarrollé y mantuve una plataforma educativa crítica utilizada por más de 1.500 instituciones, más de 600.000 estudiantes y más de 150.000 miembros del personal en toda Argentina. Contribuí al procesamiento de más de 26 millones de transacciones mensuales, incluyendo asistencia, calificaciones, tareas e inicios de sesión. Implementé pruebas end-to-end con Cypress y refactoricé código heredado para mejorar la performance y la mantenibilidad del sistema. Diseñé y desarrollé el módulo de “Asistencia al Comedor”, proponiendo un modelo de datos optimizado para garantizar escalabilidad. Dentro del equipo, asumí frecuentemente tareas urgentes o técnicamente complejas, actuando como desarrollador de referencia."
         },
         "view": "Ver resumen completo"
     },
@@ -85,7 +87,7 @@
         },
         "livosur": {
             "name": "Li.Vo.Sur",
-            "description": "Desarrollé y gestiono integralmente el sistema web de la Li.Vo.Sur, que incluye un apartado público para la visualización de información de la liga y un backoffice para la administración completa. La plataforma cuenta con módulos para la gestión de transferencias de jugadores, pagos e inscripciones, optimizando la organización y operación de la liga."
+            "description": "Lideré el desarrollo de una plataforma web para la gestión de 78 clubes deportivos y 8.500 jugadores activos, transformando un flujo de trabajo manual en una solución digital eficiente para una gran comunidad regional. Construí una arquitectura full-stack con Next.js, Node.js, PostgreSQL y la desplegué en un VPS de producción. Entregué vistas en tiempo real de partidos, resultados y tablas de posiciones, junto con un backoffice para la gestión de torneos, pagos y estadísticas. La plataforma alcanzó más de 3.000 usuarios únicos mensuales según Google Analytics, y recibí reconocimiento directo de la dirección de la liga por su usabilidad y el impacto operativo logrado."
         }
     },
     "archive": {
